@@ -1,0 +1,27 @@
+{
+  "name": "semver-decrement",
+  "version": "1.0.0",
+  "description": "Decrement semver: 1.2.3 -> 1.2.2",
+  "license": "MIT",
+  "author": {
+    "name": "Sosuke Suzuki",
+    "email": "aosukeke@gmail.com"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "scripts": {
+    "test": "jest",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "semver": "^7.3.4"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "prettier": "^2.2.1"
+  }
+}
